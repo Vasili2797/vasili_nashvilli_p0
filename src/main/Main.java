@@ -1,9 +1,10 @@
 package main;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         System.out.println("Welcome to Easier App. Place, where your college life gets easier. " +
                 "We are her to help you. Whenever, Wherever.");
         String choice1 = "1) Register for classes or check registration status";
